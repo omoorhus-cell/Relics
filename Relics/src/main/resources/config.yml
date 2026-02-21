@@ -1,0 +1,7 @@
+storage:
+  max-pages: 50
+  page-size: 45
+  title: "Relics (Page {page})"
+
+player-gui:
+  title: "Your Relics (Page {page})"

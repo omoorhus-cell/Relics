@@ -1,0 +1,20 @@
+name: Relics
+version: '1.0'
+main: org.tekkabyte.relics.RelicsPlugin
+api-version: '1.21'
+softdepend: [Skript, ArtifactedCore]
+
+commands:
+  relic:
+    description: Manage artifact tagging and templates
+    usage: /relic set <id> [--save] | /relic save <id> | /relic delete <page> <slot> | /relic replace <page> <slot> | /relic give <page> <slot> [player]
+  viewrelics:
+    description: View artifact templates GUI
+    usage: /viewrelics <page>
+  relics:
+    description: Open your relic loadout
+    usage: /relics
+
+permissions:
+  relics.admin:
+    default: op
